@@ -8,6 +8,7 @@ const Home = () => {
             <Header></Header>
             <Navbar></Navbar>
             <h2 className="text-3xl font-poppins">This is home</h2>
+            
         </div>
     );
 };

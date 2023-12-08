@@ -3,6 +3,7 @@ import LefSideNavbar from "../Shared/LeftSideNavbar/LefSideNavbar";
 import Navbar from "../Shared/Navbar/Navbar";
 import RightSideNavbar from "../Shared/RightSideNavbar/RightSideNavbar";
 import BreakingNews from "./BreakingNews";
+import News from "./News";
 
 
 const Home = () => {
@@ -12,15 +13,15 @@ const Home = () => {
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
             <div className="grid md:grid-cols-4 gap-6">
-                <div className="border">
+                <div className="">
                     <LefSideNavbar></LefSideNavbar>
                 </div>
 
-                <div className="md:col-span-2 border">
-                    <h2>News coming soon......</h2>
+                <div className="md:col-span-2 ">
+                    <News></News>
                 </div>
 
-                <div className="border">
+                <div className="">
                     <RightSideNavbar></RightSideNavbar>
                 </div>
             </div>

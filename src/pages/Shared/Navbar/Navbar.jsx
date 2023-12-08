@@ -5,9 +5,9 @@ import defaultUserPic from '../../../assets/user.png'
 const Navbar = () => {
 
     const NavLinks = <>
-        <NavLink to={'/'}><li><a>Home</a></li></NavLink>
-        <NavLink to={'/about'}><li><a>About</a></li></NavLink>
-        <NavLink to={'/career'}><li><a>Career</a></li></NavLink>
+        <NavLink to={'/'}><li>Home</li></NavLink>
+        <NavLink to={'/about'}><li>About</li></NavLink>
+        <NavLink to={'/career'}><li>Career</li></NavLink>
     </>
 
     return (

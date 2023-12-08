@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const NewsCard = ({ news }) => {
 
@@ -37,3 +37,7 @@ const NewsCard = ({ news }) => {
 };
 
 export default NewsCard;
+
+NewsCard.propTypes = {
+    optionalNode: PropTypes.node
+  };

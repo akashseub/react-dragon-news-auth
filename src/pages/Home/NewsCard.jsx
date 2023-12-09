@@ -1,4 +1,5 @@
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types'
 
 const NewsCard = ({ news }) => {
 
@@ -6,7 +7,7 @@ const NewsCard = ({ news }) => {
     const { author, title, image_url, details } = news;
 
     return (
-        <div>
+        <div className='mb-8'>
             <div className="flex  justify-between">
                 <div className="flex space-x-4 items-center">
                     <div>
@@ -39,5 +40,5 @@ const NewsCard = ({ news }) => {
 export default NewsCard;
 
 NewsCard.propTypes = {
-    optionalNode: PropTypes.node
+    optionalNode: PropTypes.node,
   };

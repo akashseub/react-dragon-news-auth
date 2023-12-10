@@ -24,7 +24,7 @@ const NewsCard = ({ news }) => {
                 </div>
 
                 <div className="">
-                    <h2>Bookmark</h2>
+                    <h2>Bookmark Book</h2>
                 </div>
             </div>
 

@@ -17,7 +17,7 @@ const LefSideNavbar = () => {
 
     return (
         <div className="sticky top-0">
-            <h2 className="text-xl font-bold">All Category News : {categories.length}</h2>
+            <h2 className="text-lg font-bold">All Category News : {categories.length}</h2>
             {
                 categories.map(category => <Link className="space-y-4" to={`${category.id}`} key={category.id}><li className="list-none">{category.name}</li></Link>)
             }

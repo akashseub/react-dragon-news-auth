@@ -22,15 +22,16 @@ const Login = () => {
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input type="password" placeholder="password" className="input input-bordered" required />
-                                <label className="label">
-                                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                                    <Link to={'/register'}><p href="#" className="label-text-alt link link-hover">Register</p></Link>
-                                </label>
+
                             </div>
                             <div className="form-control mt-6">
                                 <NavLink><button className="btn btn-primary">Login</button></NavLink>
                             </div>
                         </form>
+                        <label className="label">
+                            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                            <Link to={'/register'}><p href="#" className="label-text-alt link link-hover">Register</p></Link>
+                        </label>
                     </div>
                 </div>
             </div>
